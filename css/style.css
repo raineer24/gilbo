@@ -112,6 +112,7 @@ i.tb {
 	text-decoration: none;
 	position: relative;
 	padding-bottom: 15px;
+	display: inline-block;
 	
 }
 .head-nav ul li a:hover,
