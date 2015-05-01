@@ -126,7 +126,7 @@ i.tb {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background: #e2b32a;
+	background: #05acaa;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
