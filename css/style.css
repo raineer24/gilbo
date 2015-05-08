@@ -267,6 +267,11 @@ i.itb {
 		font-size: 9px;
 	}
 }
+@media(max-width:480px) {
+	.logo {
+		float: none;
+	}
+}
 @media(max-width:320px){
 .logo {
   width: 90%;
