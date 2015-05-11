@@ -216,6 +216,8 @@ i.tb {
 }
 #jqxWidget {
 	margin-left: 20%;
+	height: ;
+	width: ;
 }
 .jqx-widget-content {
 	border-color: none;
@@ -317,5 +319,10 @@ i.itb {
 	}
 	.featured-middle {
 		display: none;
+	}
+	#jqxWidget {
+		width: 100%;
+		height: 100%;
+		margin: 0;
 	}
 }
