@@ -147,7 +147,7 @@ i.tb {
 
 
 .banner {
-	background: url(../images/banner.jpg) no-repeat center;
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
 	width: 100%;
   	min-height: 600px;
   	background-size: cover;
@@ -266,13 +266,47 @@ i.itb {
 	.head-nav ul li a {
 		font-size: 9px;
 	}
+	.bannerInfo {
+		width: 40%;
+	}
+}
+@media(max-width:780px) {
+	.head-nav {
+
+	}
+	.head-nav ul {
+		display: none;
+	}
+}
+@media(max-width: 640px ) {
+	.logo img {
+		width: 100%;
+	}
+	.address {
+		display: none;
+	}
 }
 @media(max-width:480px) {
 	.logo {
 		float: none;
+		margin: 0 auto;
 	}
+	
 }
 @media(max-width:320px){
-.logo {
-  width: 90%;
+	.logo {
+	  width: 60%;
+	}
+	.signin {
+		  text-align: center;
+		  width: 100%;
+		  margin-top: 0.5em;
+	}
+	.banner {
+		min-height: 204px;
+		padding: 0;
+	}
+	.bannerInfo {
+		width: 70%;
+	}
 }
