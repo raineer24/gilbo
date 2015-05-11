@@ -291,6 +291,9 @@ i.itb {
 		float: none;
 		margin: 0 auto;
 	}
+	.featured-right {
+		display: none;
+	}
 	
 }
 @media(max-width:320px){
@@ -308,5 +311,11 @@ i.itb {
 	}
 	.bannerInfo {
 		width: 70%;
+	}
+	.featured-grid {
+		width: 100%;
+	}
+	.featured-middle {
+		display: none;
 	}
 }
