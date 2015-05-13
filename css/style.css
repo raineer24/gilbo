@@ -274,10 +274,15 @@ i.itb {
 }
 @media(max-width:780px) {
 	.head-nav {
-
+		float: none;
+    	width: 100%;
+    	text-align: right;
 	}
 	.head-nav ul {
 		display: none;
+	}
+	span.menu:before {
+		content: url('../images/nav.png') no-repeat 0px 0px;
 	}
 }
 @media(max-width: 640px ) {
