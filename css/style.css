@@ -289,13 +289,16 @@ i.itb {
     	display: block;
 	}
 	.head-nav ul li {
-		margin: 0;
+		    margin: 0em;
+		    display: block;
+		    float: none;
+		    border-bottom: 1px solid red;
 	}
 	.head-nav ul {
 		    background: #e9eceb;
 	    z-index: 999;
 	    position: absolute;
-	    /* width: 96%; */
+	    width: 96%;
 	    text-align: center;
 	    margin: 15px 0;
 	}
@@ -333,6 +336,9 @@ i.itb {
 	}
 	.signin {
 		  display: none;
+	}
+	.head-nav ul {
+		width: 90%;
 	}
 	.banner {
 		min-height: 204px;
