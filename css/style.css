@@ -303,7 +303,7 @@ i.itb {
 		padding: 10px 0;
 	}
 	.head-nav ul li a {
-		
+
 	}
 	
 }
@@ -313,6 +313,9 @@ i.itb {
 	}
 	.address {
 		display: none;
+	}
+	.head-nav ul li {
+		padding: 4px 0;
 	}
 }
 @media(max-width:480px) {
