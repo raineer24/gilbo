@@ -19,7 +19,7 @@
 	<script type="text/javascript">
         $(document).ready(function () { 
             // create jqxcalendar.
-            $("#jqxWidget").jqxCalendar({ width: '352px', height: '324px'});
+            $("#jqxWidget").jqxCalendar();
         });
     </script>
 	
@@ -50,6 +50,7 @@
 					</div> <!-- header-TOP -->
 
 					<div class="head-nav">
+						<span class="menu"></span>
 						<ul>
 							<li class="active"><a href="#">HOME</a></li>
 							
@@ -63,6 +64,12 @@
 							<li><a href="#">DIVE PROFESSIONALS</a></li>
 						</ul>
 					</div>
+					<script>
+						 $("span.menu").click(function(){
+						 $(".head-nav ul").slideToggle("slow" , function(){
+						 });
+						 });
+					</script>
 					
 				</div> <!-- header-right -->
 			</div> <!-- container end -->
