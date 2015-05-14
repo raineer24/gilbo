@@ -273,6 +273,9 @@ i.itb {
 	}
 }
 @media(max-width:780px) {
+	.header-top {
+		display: none;
+	}
 	.head-nav {
 		float: none;
     	width: 100%;
