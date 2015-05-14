@@ -336,10 +336,13 @@ i.itb {
 }
 @media(max-width:320px){
 	.logo {
-	  width: 35%;
+	  width: 50%;
 	}
 	.signin {
 		  display: none;
+	}
+	.head-nav {
+		padding: 0;
 	}
 	.head-nav ul {
 		width: 90%;
