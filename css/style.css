@@ -76,22 +76,22 @@ header {
 	display: inline-block;
 }
 i.fb {
-	background: url(../images/icons.png) no-repeat -2px -1px;
-	width: 8px;
-	height: 13px;
-	float: left;
+	background: url(../images/img-sprite.png) no-repeat -5px -58px;
+	width: 30px;
+	height: 30px;
+	display: block;
 }
 i.vm {
-	background: url(../images/icons.png) no-repeat -17px -3px;
-	width: 13px;
-	height: 10px;
-	float: left;
+	background: url(../images/img-sprite.png) no-repeat -44px -59px;
+	width: 30px;
+	height: 30px;
+	display: block;
 }
 i.tb {
-	background: url(../images/icons.png) no-repeat -39px -1px;
-	width: 10px;
-	height: 13px;
-	float: left;
+	background: url(../images/img-sprite.png) no-repeat -78px -59px;
+	width: 30px;
+	height: 30px;
+	display: block;
 }
 .head-nav {
 	padding: 1em 0 0 2em;
