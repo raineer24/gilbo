@@ -75,6 +75,11 @@ header {
 .signin ul li {
 	display: inline-block;
 }
+.signin li span {
+	vertical-align: text-top;
+	display: inline-block;
+}
+
 i.fb {
 	background: url(../images/img-sprite.png) no-repeat -5px -58px;
 	width: 30px;
@@ -92,6 +97,10 @@ i.tb {
 	width: 30px;
 	height: 30px;
 	display: block;
+}
+.signin i {
+	vertical-align: middle;
+	display: inline-block;
 }
 .head-nav {
 	padding: 1em 0 0 2em;
