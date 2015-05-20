@@ -75,6 +75,13 @@ header {
 .signin ul li {
 	display: inline-block;
 }
+.signin li span {
+	vertical-align: top;
+}
+.signin i {
+	vertical-align: middle;
+	display: inline-block;
+}
 i.fb {
 	background: url(../images/img-sprite.png) no-repeat -5px -58px;
 	width: 30px;
