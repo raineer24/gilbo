@@ -247,6 +247,7 @@ i.tb {
 }
 .footerClass {
 	float: left;
+	margin-top: 20px;
 }
 .social {
 	float: right;
@@ -255,6 +256,10 @@ i.tb {
 	margin: 10px 0 0;
 }
 .social li {
+	display: inline-block;
+}
+.social li span {
+	vertical-align: text-top;
 	display: inline-block;
 }
 i.ifb {
@@ -274,6 +279,10 @@ i.itb {
 	width:  40px;
 	height:  40px;
 	display: block;
+}
+.social i{
+	vertical-align: middle;
+	display: inline-block;
 }
 /*-- responsive-mediaquries --*/
 @media(max-width:1024px) {
