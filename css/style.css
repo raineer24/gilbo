@@ -64,12 +64,9 @@ header {
 }
 
 .signin {
-	float: right;
-	
-}
-.signin {
 	margin: 0;
 	padding: 0;
+	float: right;
 }
 .signin li {
 	display: inline-block;
