@@ -293,12 +293,12 @@ i.itb {
 	.address li:nth-child(1) {
 		background: url(../images/icons.png) no-repeat -1px -19px;
 		
-		text-indent: 16px;
+		
 								}
 	.address li:nth-child(2) {
 			background: url(../images/icons.png) no-repeat  -2px -37px;
 			
-			text-indent: 12px;
+			
 								}
 	.head-nav ul li a {
 		font-size: 9px;
