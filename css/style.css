@@ -55,19 +55,15 @@ header {
 	display: inline-block;
 	margin-right: 20px;
 }
-.header-top ul.address li { text-indent: 0; }
-
-ul.address li:first-child { padding-left: 20px; }
-
 .address li:nth-child(1) {
 	background: url(../images/icons.png) no-repeat -1px -19px;
+	padding-left: 20px;
 	
-	/*text-indent: 20px;*/
 }
 .address li:nth-child(2) {
 	background: url(../images/icons.png) no-repeat  -2px -37px;
-	padding-left: 20px;
-	/*text-indent: 20px;*/
+	padding-left: 15px;
+	
 }
 
 .signin {
@@ -292,17 +288,17 @@ i.itb {
 @media(max-width:1024px) {
 	.address li {
 			display: inline-block;
-			/* margin-right: 20px; */
+			margin-right: 0;
 		}
 	.address li:nth-child(1) {
 		background: url(../images/icons.png) no-repeat -1px -19px;
 		
-		text-indent: 16px;
+		
 								}
 	.address li:nth-child(2) {
 			background: url(../images/icons.png) no-repeat  -2px -37px;
 			
-			text-indent: 12px;
+			
 								}
 	.head-nav ul li a {
 		font-size: 9px;
