@@ -292,7 +292,7 @@ i.itb {
 @media(max-width:1024px) {
 	.address li {
 			display: inline-block;
-			
+			margin: 0;
 		}
 	.address li:nth-child(1) {
 		background: url(../images/icons.png) no-repeat -1px -19px;
