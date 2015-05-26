@@ -251,9 +251,10 @@ i.tb {
 }
 .social {
 	float: right;
+	margin: 10px 0 0;
 }
 .social ul {
-	margin: 10px 0 0;
+	
 }
 .social li {
 	display: inline-block;
@@ -367,6 +368,11 @@ i.itb {
 	}
 	.featured-right {
 		display: none;
+	}
+	.footerLeft {
+		width: 100%;
+		float: none;
+		text-align: center;
 	}
 	
 }
