@@ -177,6 +177,11 @@ i.tb {
 .slid{
 	width: 100%;
 }
+.featured .container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
 .featured-grid {
 	float: left;
 	width: 33.33%;
@@ -287,6 +292,9 @@ i.itb {
 }
 /*-- responsive-mediaquries --*/
 @media(max-width:1024px) {
+
+}
+@media(max-width:1024px) {
 	.address li {
 			display: inline-block;
 			margin-right: 0;
@@ -379,6 +387,13 @@ i.itb {
 	}
 	.formInfo .tr input {
 		width: 90%;
+	}
+	.featured .container {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.featured-grid {
+		width: 50%;
 	}
 	
 }
