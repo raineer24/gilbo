@@ -395,6 +395,11 @@ i.itb {
 	.featured-grid {
 		width: 50%;
 	}
+	#jqxWidget {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
 	
 }
 @media(max-width:320px){
@@ -423,11 +428,7 @@ i.itb {
 	.featured-middle {
 		display: none;
 	}
-	#jqxWidget {
-		width: 100%;
-		height: 100%;
-		margin: 0;
-	}
+	
 	.formInfo .tr input {
 		width: 100%;
 	}
