@@ -354,8 +354,8 @@ i.itb {
 	.head-nav ul li {
 		padding: 10px 0;
 	}
-	.head-nav ul li a {
-
+	.bannerInfo {
+		width: 100%;
 	}
 	
 }
