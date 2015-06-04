@@ -384,6 +384,7 @@ i.itb {
 	}
 	.formInfo {
 		width: 100%;
+		padding-left: 0;
 	}
 	.formInfo .tr input {
 		width: 90%;
