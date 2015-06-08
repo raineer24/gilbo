@@ -326,7 +326,9 @@ i.itb {
     	width: 100%;
     	text-align: right;
 	}
-	
+	span.menu:before {
+		
+	}
 	span.menu:before {
 		content: url('../images/nav.png');
 	}
@@ -375,6 +377,9 @@ i.itb {
 	.logo {
 		
 	}
+	.head-nav ul {
+		width: 90%;
+	}
 	.featured-right {
 		display: none;
 	}
@@ -414,9 +419,7 @@ i.itb {
 	.head-nav {
 		padding: 0;
 	}
-	.head-nav ul {
-		width: 90%;
-	}
+	
 	.banner {
 		min-height: 204px;
 		padding: 0;
