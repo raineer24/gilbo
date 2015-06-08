@@ -327,7 +327,11 @@ i.itb {
     	text-align: right;
 	}
 	span.menu:before {
-		content: url('../images/nav.png') no-repeat 0px 0px;
+		content: '';
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		background: url('../images/nav.png') no-repeat;
 	}
 	.head-nav ul {
 		display: none;
