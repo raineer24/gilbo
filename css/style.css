@@ -326,9 +326,7 @@ i.itb {
     	width: 100%;
     	text-align: right;
 	}
-	span.menu:before {
-		
-	}
+	
 	span.menu:before {
 		content: url('../images/nav.png');
 	}
