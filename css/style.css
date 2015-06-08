@@ -292,9 +292,9 @@ i.itb {
 }
 /*-- responsive-mediaquries --*/
 @media(max-width:1024px) {
-
-}
-@media(max-width:1024px) {
+	header {
+		padding-bottom: 5px;
+	}
 	.address li {
 			display: inline-block;
 			margin-right: 0;
