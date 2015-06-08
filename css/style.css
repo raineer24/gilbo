@@ -292,9 +292,7 @@ i.itb {
 }
 /*-- responsive-mediaquries --*/
 @media(max-width:1024px) {
-	header {
-		padding-bottom: 5px;
-	}
+
 	.address li {
 			display: inline-block;
 			margin-right: 0;
@@ -343,7 +341,7 @@ i.itb {
 		    margin: 0em;
 		    display: block;
 		    float: none;
-		    border-bottom: 1px solid red;
+		    border-bottom: 1px solid #05acaa;
 	}
 	.head-nav ul {
 		    background: #e9eceb;
@@ -374,6 +372,9 @@ i.itb {
 	}
 }
 @media(max-width:480px) {
+	header {
+		padding-bottom: 10px;
+	}
 	.logo {
 		
 	}
