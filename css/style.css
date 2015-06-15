@@ -291,6 +291,12 @@ i.itb {
 	display: inline-block;
 }
 /*-- responsive-mediaquries --*/
+@media(max-width:1200px) { 
+	header .container {
+		width: 100%;
+	}
+
+}
 @media(max-width:1024px) {
 
 	.address li {
